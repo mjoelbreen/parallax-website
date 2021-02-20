@@ -7,7 +7,10 @@ class Home extends React.Component {
         return(
             <div>
                 <Navbar />
-                <h1>Hi! I'm Jew Keikelstein. I'm a gay, black Jew.</h1>
+                <div className="container-white">
+                <h1>VR IN MOTION</h1>
+                <p>We make games here at Parallax Visions.</p>
+                </div>
             </div>
         )
     }

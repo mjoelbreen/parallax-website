@@ -37,10 +37,11 @@ class Navbar extends React.Component {
 
         
         return(
-            <div className="buttons">
-                <button id="home-button" onClick={ToHome}>Home</button>
-                <button id="projects-button" onClick={ToProjects}>Projects</button>
-                <button id="contact-button" onClick={ToContact}>Contact Me</button>
+            <div className="nav">
+                <img id="logo" src="bw-web-logo.png"/>
+                <a id="home-button" onClick={ToHome}>VR PROJECTS</a>
+                <a id="projects-button" onClick={ToProjects}>GAMES</a>
+                <a id="contact-button" onClick={ToContact}>CONTACT US</a>
             </div>
         )
     }

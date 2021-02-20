@@ -1,28 +1,42 @@
-.buttons {
+.nav {
     display: block;
-    margin: 0 auto;
+    margin: 1% 20% 1% 10%;
     text-align: center;
-    background-color: black;
+
     
+    
+    }
+
+#logo {
+        width: 150px;
+        height: 150px;
+        padding: 1% 5% 0 5%;
+        transition: all .2s ease-in-out; 
+        
+        
+    }
 
 
+#logo:hover {
+    cursor: pointer;
+    transform: scale(1.1); 
 }
 
-button {
+a {
     display: inline-flex;
     flex-direction: row;
-    justify-content: space-around;
-    font-family: "Roboto", "Work Sans", sans-serif;
-    font: 16px;
-    background-color: green;
+    justify-content: center;
+    font-family: "Open Sans", "Work Sans", sans-serif;
+    font: 14px;
+    font-weight: 500;
     color: white;
     margin: 1%;
     padding: 0.5% 1%;
-    border: 1px solid black;
-    border-radius: 5%;
+    
 }
 
-button:hover {
+a:hover {
     
-    border: 1px solid white;
+    color: rgb(0, 119, 255);
+    cursor: pointer;
 }
