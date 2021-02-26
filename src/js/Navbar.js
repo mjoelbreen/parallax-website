@@ -58,7 +58,7 @@ class Navbar extends React.Component {
         
         return(
             <div className="nav">
-                <img id="logo" src="bw-web-logo.png" onClick={ToHome}/>
+                <img id="logo" src="../images/bw-web-logo.png" onClick={ToHome}/>
                 <a onClick={ToProjects}>VR PROJECTS</a>
                 <a onClick={ToGames}>GAMES</a>
                 <a onClick={ToMusic}>MUSIC</a>

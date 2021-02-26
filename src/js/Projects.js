@@ -7,7 +7,7 @@ class Projects extends React.Component {
         return(
             <div>
                 <Navbar />
-                <div className="container-white">
+                <div className="container">
                 <h1>Projects</h1>
                 <p>Here is what we've been up to.</p>
                 </div>

@@ -7,7 +7,7 @@ class Contact extends React.Component {
         return(
             <div>
                 <Navbar />
-                <div className="container-white">
+                <div className="container">
                 <h1>Contact Us</h1>
                 <p>Here's how to contact us.</p>
                 </div>

@@ -7,7 +7,7 @@ class Home extends React.Component {
         return(
             <div>
                 <Navbar />
-                <div className="container-white">
+                <div className="container">
                 <h1>VR IN MOTION</h1>
                 <p>We make games here at Parallax Visions.</p>
                 </div>
