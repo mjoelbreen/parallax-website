@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
+
 
 class Container extends React.Component {
     constructor(props) {
@@ -21,21 +21,11 @@ class Container extends React.Component {
 
     render() {
 
-        const roseBox = new Container();
-        roseBox = {
-            backgroundColor: roseBox,
-            
-        }
-        const whiteBox = () => {
-            return(
-                ReactDOM.render(
-                    <Container style={{backgroundColor: "white"}}/>
-                )
-            )
-        }
+        
+     
         return(
             <div>
-                {whiteBox}
+                
 
 
             </div>
