@@ -12,7 +12,7 @@ class Projects extends React.Component {
                 <p>Here is what we've been up to.</p>
                 </div>
                 <footer>
-                &copy; {new Date().getFullYear()} Parallax Visions
+                &copy; {new Date().getFullYear()} Parallax Visions, LLC
                 </footer>
             </div>
         )

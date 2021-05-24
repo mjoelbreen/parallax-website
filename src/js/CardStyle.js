@@ -11,7 +11,9 @@ export const GameCardContainer = {
 
   export const GameCardHeader = {
     textTransform: 'uppercase',
-    margin: "1%"
+    textAlign: "center",
+    marginTop: "2%",
+    
   }
 
   export const GameCardImage = {
@@ -20,7 +22,7 @@ export const GameCardContainer = {
     }
   
   export const GameCardBody = {
-      overflowY: "hidden",
+      
       height: 500,
       width: 500,
       
@@ -35,8 +37,11 @@ export const GameCardContainer = {
   }
 
 export const ItchLink = {
-  marginLeft: "5%",
-  marginTop: "1%"
+  display: "flex",
+  
+ 
+  
+
 }
   
   

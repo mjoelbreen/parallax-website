@@ -19,7 +19,7 @@ class GamePage extends React.Component {
                 <h1>Games</h1>
                
                
-                <div style={{flex: '1', display: 'flex', justifyContent: 'space-around'}}>
+                <div style={{flex: '1', display: 'flex',  justifyContent: 'space-around'}} >
     
           <div style={{display: 'flex', flex: '1', flexDirection: 'row', flexWrap: 'wrap'}}>
             {Games.map((game, index) => {

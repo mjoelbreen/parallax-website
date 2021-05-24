@@ -1,4 +1,5 @@
 import React, {Component} from "react"
+
 import {
   GameCardDescription,
   GameCardContainer,
@@ -29,7 +30,16 @@ class GameCard extends Component {
     return description//.slice(0, 125) + ((description.length > 160) ? "..." : '')
   } 
 
+
+
+ 
+
+ 
+
   render() {
+
+    
+
     const {
       title,
       subtitle,
@@ -37,6 +47,9 @@ class GameCard extends Component {
       itch_link,
       index,
     } = this.props
+
+   
+ 
 
     /*const hoverColors = [
       '#F22738',
@@ -50,26 +63,32 @@ class GameCard extends Component {
     */
   
     return (
+      
       <div
-        style={GameCardContainer}
+        style={GameCardContainer} 
         //onMouseEnter={() => this.toggleHover()}
         //onMouseLeave={() => this.toggleHover()}
       >
+       
         <img src={`${img_path}`} alt={title} style={GameCardImage}  />
+        
         <div style={{...GameCardBody,
             backgroundColor: '#E7E7E7'
             //backgroundColor: (this.state.hovering ? hoverColor: '#E7E7E7')
              }}>
-          <h2 style={GameCardHeader}>
+          <h2 style={GameCardHeader} >
             {title}
           </h2>
-          <h2>{subtitle}</h2>
+         
   
           <p style={GameCardDescription}>{this.formatDescription()}</p>
-          <a style={ItchLink} href={itch_link}>
-            Learn more
-          </a>
+          <footer>
+            <a style={ItchLink} href={itch_link} target="_blank">
+              Learn more
+            </a>
+            </footer>
         </div>
+        
       </div>
     )
   }
