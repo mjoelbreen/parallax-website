@@ -6,7 +6,7 @@ import GameCard from './GameCard'
 export default function GameList() {
   return (
     
-      <div id="games" style={{width: 1000}}>
+      <div id="games" >
        
           {Games.map((game, index) => {
             console.log(index)

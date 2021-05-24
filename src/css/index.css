@@ -1,14 +1,13 @@
 * {
-    overflow-x: hidden;
+   
+   
+    margin: 0 auto;
     
     
    
 }
 
-html {
-    overflow-x: hidden;
-    background-color: white;
-}
+
 
 
 
@@ -35,7 +34,7 @@ p {
 
 
 #music-container {
-    padding-left: 30%;
+    margin: 0 auto;
     padding-top: 2%;
     padding-bottom: 2%;
     background-color: pink;
@@ -44,7 +43,7 @@ p {
 #billboard {
     z-index: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     margin: 1% auto;
 }
 
@@ -86,6 +85,7 @@ h2 {
 a {
     text-align:center;
 }
+
 
 
 

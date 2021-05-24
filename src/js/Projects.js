@@ -11,9 +11,9 @@ class Projects extends React.Component {
                 <h1>Projects</h1>
                 <p>Here is what we've been up to.</p>
                 </div>
-                <div>
-                    
-                </div>
+                <footer>
+                &copy; {new Date().getFullYear()} Parallax Visions
+                </footer>
             </div>
         )
     }
