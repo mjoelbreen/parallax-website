@@ -1,17 +1,24 @@
 * {
-    overflow-x: hidden;
+   
+   
+    margin: 0 auto;
+    
+    
+   
 }
 
-html {
-    overflow-x: hidden;
-    background-color: black;
+
+#Game-container {
+    display: flex;
+    
+    flex-direction: column;
+  
+    width: 500;
+    height: 500;
+    margin-top: 10;
+    font-size: 16;
 }
 
-.container-white {
-    background-color: white;
-    overflow-x: hidden;
-
-}
 
 h1 {
     font-family: "Roboto", "Open Sans", sans-serif;
@@ -23,6 +30,71 @@ h1 {
 p {
     font-family: "Roboto", "Open Sans", sans-serif;
     color: hsl(0, 0%, 53%);
-    font-size: 16px;
+    max-width: 960;
+    margin: 0 auto;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 2;
+    z-index: 1;
+}
+
+
+
+
+#music-container {
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: pink;
+  }
+
+#billboard {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    margin: 1% auto;
+}
+
+footer {
+    margin: 5% auto 2% auto;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    color: hsl(0, 0%, 53%);
+    max-width: 960;
     text-align: center;
 }
+
+h2 {
+    font: 20px "Rubik", Roboto, Verdana, Arial, sans-serif;
+    color: black;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.subheader {
+    font: 50px "Work Sans", "Merriweather Sans", Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin: 2% auto;
+    text-align: center;
+   
+}
+#description {
+    display: flex;
+    flex-wrap: wrap;
+    font: 18px "Open Sans", Arial, sans-serif;
+    font-weight: lighter;
+    margin: 5% 10%;
+    z-index: 1;
+    
+}
+
+a {
+    text-align:center;
+}
+
+
+
+

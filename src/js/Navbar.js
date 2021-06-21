@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom'
 import '../css/Navbar.css'
 import Home from './Home'
 import Projects from './Projects'
-import Games from './Games'
-import Music from './Music'
+import GamePage from './GamePage'
+
 import Contact from './Contact'
 
 class Navbar extends React.Component {
@@ -23,27 +23,22 @@ class Navbar extends React.Component {
                 ReactDOM.render(
                     <Projects />,
                     document.getElementById('root')
-                )
+            )
             )
         }
 
         const ToGames = () => {
             return(
-                ReactDOM.render(
-                    <Games />,
-                    document.getElementById('root')
-                )
+                    ReactDOM.render(
+                        <GamePage />,
+                        document.getElementById('root')
+                    )
+                    
+                
             )
         }
 
-        const ToMusic = () => {
-            return(
-                ReactDOM.render(
-                    <Music />,
-                    document.getElementById('root')
-                )
-            )
-        }
+       
 
         const ToContact = () => {
             return(
@@ -58,10 +53,10 @@ class Navbar extends React.Component {
         
         return(
             <div className="nav">
-                <img id="logo" src="bw-web-logo.png" onClick={ToHome}/>
+                <img id="logo" src="../images/parallax-logo.png" onClick={ToHome}/>
                 <a onClick={ToProjects}>VR PROJECTS</a>
                 <a onClick={ToGames}>GAMES</a>
-                <a onClick={ToMusic}>MUSIC</a>
+                
                 <a onClick={ToContact}>CONTACT US</a>
             </div>
         )

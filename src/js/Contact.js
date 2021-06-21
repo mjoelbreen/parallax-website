@@ -7,10 +7,13 @@ class Contact extends React.Component {
         return(
             <div>
                 <Navbar />
-                <div className="container-white">
+                <div>
                 <h1>Contact Us</h1>
                 <p>Here's how to contact us.</p>
                 </div>
+                <footer>
+                &copy; {new Date().getFullYear()} Parallax Visions
+                </footer>
             </div>
         )
     }
